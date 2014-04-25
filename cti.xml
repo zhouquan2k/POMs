@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>ComponentPattern</artifactId>
+		<groupId>component</groupId>
+		<version>2.1-SNAPSHOT</version>
+	</parent>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>app</groupId>
+  <version>2.1-SNAPSHOT</version>
+  <artifactId>CtiSolution</artifactId>
+  <packaging>pom</packaging>
+  <name>CtiSolution</name>
+  <properties>
+  	 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <!--component-version>2.1.0-PR6</component-version-->
+     <!--server>localhost:8081</server-->
+  </properties>
+  <modules>
+  	<!--module>pattern</module-->
+	<!--module>web</module>
+	<module>securityMgr</module-->
+  	<module>ccadmin</module>
+  	<module>ctiserver</module>
+	<module>realtimestat</module>
+	<module>connector</module>
+  </modules>
+</project>
